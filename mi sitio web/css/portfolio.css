@@ -1,0 +1,26 @@
+
+.menu-link {
+  display: inline-block; 
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+  transition: transform 0.3s ease, opacity 0.3s ease; 
+}
+.menu-link:hover{
+    opacity: 0.4;
+    
+}
+
+.contenedor-scroll{
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 10px;
+    width: 100%;
+}
+
+.contenedor-scroll img{
+    scroll-snap-align: center;
+    height: 570px;
+    flex-shrink: 0;
+}
